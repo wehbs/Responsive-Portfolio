@@ -151,7 +151,7 @@ h3,
   width: 100%;
   max-width: 650px;
   padding: 30px;
-  margin: 0 0 40px;
+  margin: 0 0 40px 0;
   background: #fff;
   border: 1px solid #ddd;
 }
@@ -162,7 +162,7 @@ h3,
   position: relative;
   float: left;
   width: 274px;
-  margin: 20px 0 25px;
+  margin: 20px 0 25px 0;
   overflow: auto;
 }
 
@@ -253,7 +253,9 @@ input[type=submit] {
     width: 100%;
     height: auto;
   }
-
+  .work {
+  width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -271,15 +273,18 @@ input[type=submit] {
   .auth-image {
     width: 200px;
     height: auto;
+    margin-bottom: 10px;
   }
   .sidebar {
   float: right;
   width: 100%;
   max-width: 725px;
+  }
+  .work {
+  width: 46%;
 }
 
 }
-
 @media screen and (max-width: 640px) {
   #main-container  {
     padding-top: 0;
@@ -294,7 +299,7 @@ input[type=submit] {
     max-width: 725px;
   }
   .auth-image {
-    width: 200px;
+    width: 100%;
     height: auto;
   }
   .sidebar {
@@ -308,13 +313,17 @@ input[type=submit] {
   text-align: center;
   }
   nav a {
-
+  padding-left: 60px;
+  padding-right: 60px;
   }
   #logo {
   width: 100%;
   }
   #masthead {
   margin-bottom: 15px;
+  }
+  .work {
+  width: 100%;
   }
 
 }
